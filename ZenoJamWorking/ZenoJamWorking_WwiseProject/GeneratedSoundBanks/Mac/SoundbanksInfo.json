@@ -1,0 +1,125 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Mac",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{2D9D9375-2AA9-43C6-8786-FC4345291ACD}",
+    "Language": "SFX",
+    "Hash": "{8686BB54-EA4B-4064-2D00-AB15EA4198DF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "515646832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dash_sfx.wav",
+      "CachePath": "SFX/dash_sfx_10C4C929.wem"
+     },
+     {
+      "Id": "756105872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "slide_sfx.wav",
+      "CachePath": "SFX/slide_sfx_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2525052962",
+      "Name": "PlayerDash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Movement\\Dash\\PlayerDash",
+      "GUID": "{B86F45DD-E6ED-417E-A4BC-DDB7F6F61061}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9642917",
+      "DurationMax": "0.96987784",
+      "MediaRefs": [
+       {
+        "Id": "515646832"
+       }
+      ]
+     },
+     {
+      "Id": "170095377",
+      "Name": "PlayerSlide",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Movement\\Slide\\PlayerSlide",
+      "GUID": "{13115FBD-DC9B-4F67-AA9E-7676040F0D0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.64285415",
+      "DurationMax": "0.64285415",
+      "MediaRefs": [
+       {
+        "Id": "756105872"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{492D1C24-83B5-4448-AAA3-9D99B7316DBE}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{82130BC1-7305-4BE1-B767-D17272D68D04}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "Type": "User",
+    "GUID": "{7FA94FE3-F591-4F37-B08E-AB2F7F557D96}",
+    "Language": "SFX",
+    "Hash": "{0E3E9487-2562-8161-CF73-30D6CFA3E27A}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk"
+   }
+  ],
+  "FileHash": "{414A19CE-E67B-80AA-7C30-343EEF98BECF}"
+ }
+}

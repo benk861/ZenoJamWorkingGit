@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" GUID="{2D9D9375-2AA9-43C6-8786-FC4345291ACD}" Language="SFX" Hash="{8686BB54-EA4B-4064-2D00-AB15EA4198DF}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="515646832" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dash_sfx.wav</ShortName>
+					<CachePath>SFX/dash_sfx_10C4C929.wem</CachePath>
+				</File>
+				<File Id="756105872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>slide_sfx.wav</ShortName>
+					<CachePath>SFX/slide_sfx_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2525052962" Name="PlayerDash" ObjectPath="\Events\Default Work Unit\Player\Movement\Dash\PlayerDash" GUID="{B86F45DD-E6ED-417E-A4BC-DDB7F6F61061}" DurationType="OneShot" DurationMin="0.9642917" DurationMax="0.96987784">
+					<MediaRefs>
+						<MediaRef Id="515646832"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="170095377" Name="PlayerSlide" ObjectPath="\Events\Default Work Unit\Player\Movement\Slide\PlayerSlide" GUID="{13115FBD-DC9B-4F67-AA9E-7676040F0D0A}" DurationType="OneShot" DurationMin="0.64285415" DurationMax="0.64285415">
+					<MediaRefs>
+						<MediaRef Id="756105872"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{35E57CC0-D771-E374-2EBE-406F0EADCF85}</FileHash>
+</SoundBanksInfo>

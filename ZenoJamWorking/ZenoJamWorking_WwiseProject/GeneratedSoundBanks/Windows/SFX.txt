@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	170095377	PlayerSlide			\Default Work Unit\Player\Movement\Slide\PlayerSlide	
+	2525052962	PlayerDash			\Default Work Unit\Player\Movement\Dash\PlayerDash	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	515646832	dash_sfx	D:\UE4 - projekty\ZenoJamWorkingGit\ZenoJamWorking\ZenoJamWorking_WwiseProject\.cache\Windows\SFX\dash_sfx_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Dash\dash_sfx		185288
+	756105872	slide_sfx	D:\UE4 - projekty\ZenoJamWorkingGit\ZenoJamWorking\ZenoJamWorking_WwiseProject\.cache\Windows\SFX\slide_sfx_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Movement\Slide\slide_sfx		123572
+

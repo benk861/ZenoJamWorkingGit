@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{2D9D9375-2AA9-43C6-8786-FC4345291ACD}",
+    "Language": "SFX",
+    "Hash": "{8686BB54-EA4B-4064-2D00-AB15EA4198DF}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "515646832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dash_sfx.wav",
+      "CachePath": "SFX/dash_sfx_10C4C929.wem"
+     },
+     {
+      "Id": "756105872",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "slide_sfx.wav",
+      "CachePath": "SFX/slide_sfx_10C4C929.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2525052962",
+      "Name": "PlayerDash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Movement\\Dash\\PlayerDash",
+      "GUID": "{B86F45DD-E6ED-417E-A4BC-DDB7F6F61061}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9642917",
+      "DurationMax": "0.96987784",
+      "MediaRefs": [
+       {
+        "Id": "515646832"
+       }
+      ]
+     },
+     {
+      "Id": "170095377",
+      "Name": "PlayerSlide",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Movement\\Slide\\PlayerSlide",
+      "GUID": "{13115FBD-DC9B-4F67-AA9E-7676040F0D0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.64285415",
+      "DurationMax": "0.64285415",
+      "MediaRefs": [
+       {
+        "Id": "756105872"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{49ED3E52-E269-4F3A-261A-75C0FF7DBCF8}"
+ }
+}

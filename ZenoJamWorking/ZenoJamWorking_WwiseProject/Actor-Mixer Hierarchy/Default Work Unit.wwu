@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B41C19AA-F4E1-4D0E-9EC8-469E462D89F1}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{B41C19AA-F4E1-4D0E-9EC8-469E462D89F1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B41C19AA-F4E1-4D0E-9EC8-469E462D89F1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{ED2A923E-0223-4E97-BA37-5F76A3AB9B97}" ShortID="662626431">
+					<ChildrenList>
+						<Folder Name="Movement" ID="{E55E6373-1293-4620-82BC-7DAA54B7386E}" ShortID="553206023">
+							<ChildrenList>
+								<Folder Name="Slide" ID="{F7CCD1F5-177C-4975-96F2-1CCE56520954}" ShortID="229288143">
+									<ChildrenList>
+										<Sound Name="slide_sfx" ID="{7EADACEC-DE24-477B-AC7D-FD9A6FA3FB9B}" ShortID="523756681">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32C2F177-F2F2-4F50-B896-D55EE1710116}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB34F045-7901-48A8-9868-5A4A34663156}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="slide_sfx" ID="{8166354E-9657-4556-B281-51B7F488A920}">
+													<Language>SFX</Language>
+													<AudioFile>slide_sfx.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756105872"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="slide_sfx" ID="{8166354E-9657-4556-B281-51B7F488A920}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dash" ID="{DDD2C6A8-63E8-4CBA-9672-10CE2C12BC97}" ShortID="169384908">
+									<ChildrenList>
+										<Sound Name="dash_sfx" ID="{D02340F8-E4E4-4E20-8E22-14704A17BFF4}" ShortID="834043083">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{473E887B-F362-4B46-8B5B-01BC29CB365C}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8E28D238-B2FC-486A-A289-B0F76531B025}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{32C2F177-F2F2-4F50-B896-D55EE1710116}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BB34F045-7901-48A8-9868-5A4A34663156}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="dash_sfx" ID="{80A1B75D-D369-4F92-95D1-9ED98DA56293}">
+													<Language>SFX</Language>
+													<AudioFile>dash_sfx.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="515646832"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="dash_sfx" ID="{80A1B75D-D369-4F92-95D1-9ED98DA56293}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
