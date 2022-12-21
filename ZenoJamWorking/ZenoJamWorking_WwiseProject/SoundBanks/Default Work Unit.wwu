@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1810678F-8838-411A-92BD-440D09E4028B}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{1810678F-8838-411A-92BD-440D09E4028B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1810678F-8838-411A-92BD-440D09E4028B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{2D9D9375-2AA9-43C6-8786-FC4345291ACD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayerDash" ID="{B86F45DD-E6ED-417E-A4BC-DDB7F6F61061}" WorkUnitID="{A279D11E-5F66-464A-9BE9-06073F6D09DE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerSlide" ID="{13115FBD-DC9B-4F67-AA9E-7676040F0D0A}" WorkUnitID="{A279D11E-5F66-464A-9BE9-06073F6D09DE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{7FA94FE3-F591-4F37-B08E-AB2F7F557D96}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

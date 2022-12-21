@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A279D11E-5F66-464A-9BE9-06073F6D09DE}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{A279D11E-5F66-464A-9BE9-06073F6D09DE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A279D11E-5F66-464A-9BE9-06073F6D09DE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{93401CC3-92C8-4521-BCE0-DEA6EF62925F}" ShortID="1044237725">
+					<ChildrenList>
+						<Folder Name="Movement" ID="{1BCB27C6-7665-4491-9F1C-86D9B3087A20}" ShortID="204046581">
+							<ChildrenList>
+								<Folder Name="Slide" ID="{6E9CF7E3-87A5-4F5F-B41B-8B858CAB725D}" ShortID="319159540">
+									<ChildrenList>
+										<Event Name="PlayerSlide" ID="{13115FBD-DC9B-4F67-AA9E-7676040F0D0A}">
+											<ChildrenList>
+												<Action Name="" ID="{4064D7E3-F9E2-4790-97FD-73FFD12588CC}" ShortID="835474193">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="slide_sfx" ID="{7EADACEC-DE24-477B-AC7D-FD9A6FA3FB9B}" WorkUnitID="{B41C19AA-F4E1-4D0E-9EC8-469E462D89F1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dash" ID="{7AF97820-7C3E-453D-83C8-D1F7878109F9}" ShortID="321712944">
+									<ChildrenList>
+										<Event Name="PlayerDash" ID="{B86F45DD-E6ED-417E-A4BC-DDB7F6F61061}">
+											<ChildrenList>
+												<Action Name="" ID="{B2B73031-08AB-477D-97CC-6A7F473540BE}" ShortID="233151418">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="dash_sfx" ID="{D02340F8-E4E4-4E20-8E22-14704A17BFF4}" WorkUnitID="{B41C19AA-F4E1-4D0E-9EC8-469E462D89F1}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
